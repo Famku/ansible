@@ -1,4 +1,4 @@
-  hosts: docker1
+  hosts: all
   tasks:
     - name: Update packages with apt
       apt:
